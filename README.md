@@ -29,9 +29,9 @@ node server.js
 - [x] Bonus: Dark Mode toggle
 
 ## Screenshots
-![Desktop ](image.png)
+![Desktop ](./Images/Desktop.png)
 
-![Edit](image-1.png)
+![Edit](./Images/Edit.png)
 
 
 ## What was the hardest part?
