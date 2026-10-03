@@ -1,0 +1,49 @@
+/* Your custom styles go here.
+   Use Bootstrap classes first, and write your own CSS only when you need to. */
+/* Phase 3: CSS Grid for Summary Cards */
+.summary-grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 1rem;
+}
+
+
+@media (max-width: 768px) {
+   .summary-grid {
+      grid-template-columns: 1fr;
+   }
+}
+
+.card {
+   border-radius: 0.75rem;
+}
+
+.table th {
+   font-weight: 600;
+   color: #495057;
+}
+
+/* Bonus: Dark Mode Styles */
+[data-bs-theme="dark"] body.bg-light {
+   background-color: #121212 !important;
+   color: #f8f9fa;
+}
+
+[data-bs-theme="dark"] .card {
+   background-color: #1e1e1e;
+   border: 1px solid #2d2d2d !important;
+}
+
+[data-bs-theme="dark"] #total-count.text-dark {
+   color: #f8f9fa !important;
+}
+
+[data-bs-theme="dark"] .table-light {
+   --bs-table-bg: #2b2b2b;
+   --bs-table-color: #f8f9fa;
+   border-color: #3d3d3d;
+}
+
+[data-bs-theme="dark"] .table th {
+   color: #e9ecef;
+}
